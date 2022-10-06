@@ -16,8 +16,8 @@
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/limafy_logo.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/limafy_logo.png">
+    <link rel="shortcut icon" href="images/limafy_logo.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/limafy_logo.jpg">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
