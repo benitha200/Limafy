@@ -112,7 +112,7 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                    <a class="navbar-brand" href="index.php"><img src="images/limafy_logo.png" alt="" style="width:120px;height: 120px;"></a>
+                    <a class="navbar-brand" href="index.php"><img src="images/limafy_logo.png" alt="" style="width:40%;height: 100%;"></a>
                 </div>
                 <!-- End Header Navigation -->
 
@@ -122,14 +122,14 @@
                         <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                         <li class="dropdown">
-                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SHOP</a>
                             <ul class="dropdown-menu">
 								<li><a href="shop.php">Sidebar Shop</a></li>
 								<!-- <li><a href="shop-detail.php">Shop Detail</a></li> -->
                                 <li><a href="cart.php">Cart</a></li>
                                 <li><a href="checkout.php">Checkout</a></li>
-                                <li><a href="my-account.php">My Account</a></li>
-                                <li><a href="wishlist.php">Wishlist</a></li>
+                                <!-- <li><a href="my-account.php">My Account</a></li> -->
+                                <!-- <li><a href="wishlist.php">Wishlist</a></li> -->
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
@@ -202,7 +202,7 @@
     <div id="slides-shop" class="cover-slides">
         <ul class="slides-container">
             <li class="text-center">
-                <img src="images/banner-01.jpg" alt="">
+                <img src="images/bg4.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -214,7 +214,7 @@
                 </div>
             </li>
             <li class="text-center">
-                <img src="images/banner-02.jpg" alt="">
+                <img src="images/bg.5.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -226,7 +226,7 @@
                 </div>
             </li>
             <li class="text-center">
-                <img src="images/banner-03.jpg" alt="">
+                <img src="images/bg2.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -305,8 +305,8 @@
                     <div class="special-menu text-center">
                         <div class="button-group filter-button-group">
                             <button class="active" data-filter="*">All</button>
-                            <button data-filter=".top-featured">Top featured</button>
-                            <button data-filter=".best-seller">Best seller</button>
+                            <button data-filter=".top-featured">Super Markets</button>
+                            <button data-filter=".best-seller">Hotels</button>
                         </div>
                     </div>
                 </div>
@@ -319,7 +319,7 @@
                             <div class="type-lb">
                                 <p class="sale">Sale</p>
                             </div>
-                            <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                            <img src="images/steak-and-chips-with-garlic-sauce.jpeg" class="img-fluid" alt="Image" style="height: 250px; width:100%;">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -330,10 +330,10 @@
                             </div>
                         </div>
                         <div class="why-text">
-                            <h4>carrots</h4>
-                            <h5><i class="fa fa-dollar" aria-hidden="true"><strike>$5.00</strike></i></h5>
-                            <h6 style="color: red;">Discount: 30%</h6>
+                            <h4>Steak-and-chips with garlic sauce</h4>
                             <h5><i class="fa fa-dollar" aria-hidden="true">$3.00</i></h5>
+                            <h6 style="color: red;">Discount: 30%</h6>
+                            <h6><i class="fa fa-dollar" aria-hidden="true"><strike>$5.00</strike></i></h6>
                         </div>
                     </div>
                 </div>
@@ -344,21 +344,21 @@
                             <div class="type-lb">
                                 <p class="new">New</p>
                             </div>
-                            <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
+                            <img src="images/fries.jpg" class="img-fluid" alt="Image" style="height: 100%;">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                 </ul>
-                                <!-- <a class="cart" href="#">Add to Cart</a> -->
+                                <a class="cart" href="#">Add to Cart</a>
                             </div>
                         </div>
                         <div class="why-text">
-                            <h4>ruffles</h4>
-                            <h5><i class="fa fa-dollar" aria-hidden="true"><strike>$5.00</strike></i></h5>
-                            <h6 style="color: red;">Discount: 30%</h6>
-                            <h5><i class="fa fa-dollar" aria-hidden="true">$3.00</i></h5>
+                            <h4>Fries</h4>
+                            <h5><i class="fa fa-dollar" aria-hidden="true">$3.50</i></h5>
+                            <h6 style="color: red;">Discount: 50%</h6>
+                            <h6><i class="fa fa-dollar" aria-hidden="true"><strike>$7.00</strike></i></h6>
                         </div>
                     </div>
                 </div>
@@ -369,7 +369,7 @@
                             <div class="type-lb">
                                 <p class="sale">Sale</p>
                             </div>
-                            <img src="images/supermarket-steak-wrapped-meat-fresh-packing-packaging-beef-food-aliment-J6EYGY.jpg" class="img-fluid" alt="Image">
+                            <img src="images/nutella.jpg" class="img-fluid" alt="Image" style="height:100% ;">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -380,10 +380,65 @@
                             </div>
                         </div>
                         <div class="why-text">
-                            <h4>Beef</h4>
-                            <h5><i class="fa fa-dollar" aria-hidden="true"><strike>$5.00</strike></i></h5>
-                            <h6 style="color: red;">Discount: 30%</h6>
+                            <h4>Nutella</h4>
+                            <h5><i class="fa fa-dollar" aria-hidden="true">$4.00</i></h5>
+                            <h6 style="color: red;">Discount: 50%</h6>
+                            <h6><i class="fa fa-dollar" aria-hidden="true"><strike>$8.00</strike></i></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 special-grid top-featured">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <div class="type-lb">
+                                <p class="sale">Sale</p>
+                            </div>
+                            <img src="images/ruffles.jpg" class="img-fluid" alt="Image" style="height: 100%;">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <a class="cart" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="why-text">
+                            <h4>ruffles</h4> 
                             <h5><i class="fa fa-dollar" aria-hidden="true">$3.00</i></h5>
+                            <h6 style="color: red;">Discount: 50%</h6>
+                            <h6><i class="fa fa-dollar" aria-hidden="true"><strike>$6.00</strike></i></h6>
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <div class="col-lg-3 col-md-6 special-grid best-seller">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <div class="type-lb">
+                                <p class="sale">Sale</p>
+                            </div>
+                            <img src="images/fish-and-chips.jpg" class="img-fluid" alt="Image" style="height: 220px;">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <a class="cart" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="why-text">
+                            <h4>Fish With Chips</h4>
+                            <h5><i class="fa fa-dollar" aria-hidden="true">$3.00</i></h5>
+                            <h6 style="color: red;">Discount: 50%</h6>
+                            
+                            <h6><i class="fa fa-dollar" aria-hidden="true"><strike>$6.00</strike></i></h6>
                         </div>
                     </div>
                 </div>
@@ -394,7 +449,7 @@
                             <div class="type-lb">
                                 <p class="sale">Sale</p>
                             </div>
-                            <img src="images/ruffles.jpg" class="img-fluid" alt="Image">
+                            <img src="images/buger-with-chips.jpg" class="img-fluid" alt="Image" style="height: 220px;">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -405,13 +460,68 @@
                             </div>
                         </div>
                         <div class="why-text">
-                            <h4>ruffles</h4>
-                            <h5><i class="fa fa-dollar" aria-hidden="true"><strike>$5.00</strike></i></h5>
-                            <h6 style="color: red;">Discount: 30%</h6>
-                            <h5><i class="fa fa-dollar" aria-hidden="true">$3.00</i></h5>
+                            <h4>Buger With Chips</h4>
+                            <h5><i class="fa fa-dollar" aria-hidden="true">$10.00</i></h5>
+                            <h6 style="color: red;">Discount: 50%</h6>
+                            <h6><i class="fa fa-dollar" aria-hidden="true"><strike>$20.00</strike></i></h6>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-3 col-md-6 special-grid top-featured">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <div class="type-lb">
+                                <p class="sale">Sale</p>
+                            </div>
+                            <img src="images/cookies.jpg" class="img-fluid" alt="Image" style="height: 240px;">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <a class="cart" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="why-text">
+                            <h4>Cookies</h4>
+                            <h5><i class="fa fa-dollar" aria-hidden="true">$3.00</i></h5>
+                            <h6 style="color: red;">Discount: 50%</h6>
+                            
+                            <h6><i class="fa fa-dollar" aria-hidden="true"><strike>$6.00</strike></i></h6>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 special-grid best-seller">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+                            <div class="type-lb">
+                                <p class="sale">Sale</p>
+                            </div>
+                            <img src="images/chicken2.jpg" class="img-fluid" alt="Image" style="height: 220px;">
+                            <div class="mask-icon">
+                                <ul>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                                <a class="cart" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="why-text">
+                            <h4>Chicken Wing With chips</h4>
+                            <h5><i class="fa fa-dollar" aria-hidden="true">$3.00</i></h5>
+                            <h6 style="color: red;">Discount: 50%</h6>
+                            
+                            <h6><i class="fa fa-dollar" aria-hidden="true"><strike>$6.00</strike></i></h6>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>
